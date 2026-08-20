@@ -20,7 +20,7 @@ Atenție la meduze! Traseul trebuie calculat cu mare grijă. Dacă robotul tău 
 
 ---
 
-## 🛠️ Instalare și Rulare (Build)
+## 🛠️ Build
 
 Deoarece jocul este construit folosind **Windows Forms**, ai nevoie de un mediu de dezvoltare compatibil cu ecosistemul .NET pe Windows.
 
