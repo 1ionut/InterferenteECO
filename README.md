@@ -2,23 +2,21 @@
 
 Un joc puzzle-educațional dezvoltat în **C# (Windows Forms)** în care jucătorul trebuie să ghideze un robot pentru a curăța oceanul de deșeuri (Sticlă, Plastic, Hârtie), evitând în același timp vietățile marine.
 
->  Acest proiect folosește o interfață bazată pe grid și mecanici de redirecționare a mișcării pentru a rezolva nivelurile.
-
 ---
 
 ![Meniu Principal](./Resources/preview.png)
 
 ---
 
-## 🎮 Cum se joacă
+# 🎮 Cum se joacă?
+Începe aventura: Totul pornește prin încărcarea hărții pe care vrei să o cureți (dintr-un fișier .txt).
 
-Scopul jocului este să aduni toate deșeurile de pe hartă folosind robotul, fără să lovești vietățile marine (meduzele).
+Ghidează robotul: Robotul nostru e super harnic, dar are o mică problemă: merge doar în linie dreaptă!. Va trebui să plasezi „deflectoare” pe traseu și să le rotești (Sus, Jos, Stânga, Dreapta) pentru a-i schimba traiectoria și a-l duce exact unde trebuie.
 
-**Mecanici principale:**
-1. **Încărcarea Hărții:** Jocul începe prin încărcarea unui fișier `.txt` care conține nivelul.
-2. **Deflectoare (Săgeți de direcție):** Robotul se mișcă în linie dreaptă. Jucătorul trebuie să plaseze strategic *deflectoare* pe hartă și să le rotească pentru a schimba direcția robotului (Sus, Jos, Stânga, Dreapta).
-3. **Condiții de Victorie:** Jocul este câștigat atunci când contorul pentru Sticlă, Plastic și Hârtie ajunge la totalul de pe hartă.
-4. **Condiții de Înfrângere:** Jocul se termină dacă robotul se lovește de o vietate marină (`Meduza`).
+## 🏆 Reguli de aur
+Ai adunat absolut fiecare bucată de deșeu de pe hartă? Felicitări, ai curățat zona cu succes și ai trecut nivelul!
+
+Atenție la meduze! Traseul trebuie calculat cu mare grijă. Dacă robotul tău se ciocnește accidental de o meduză, misiunea eșuează. Protejarea ecosistemului are mereu prioritate!
 
 ---
 
