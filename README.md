@@ -1,29 +1,27 @@
-﻿# 🌊 Interferențe ECO
+# 🌊 InterferenteECO
 
-Un joc puzzle-educațional dezvoltat în **C# (Windows Forms)** în care jucătorul trebuie să ghideze un robot pentru a curăța oceanul de deșeuri (Sticlă, Plastic, Hârtie), evitând în același timp vietățile marine.
-
----
-
-![Meniu Principal](./Resources/preview.png)
+An educational puzzle game developed in **C# (Windows Forms)** where the player must guide a robot to clean the ocean of waste (Glass, Plastic, Paper) while avoiding marine life.
 
 ---
 
-# 🎮 Cum se joacă?
-Începe aventura: Totul pornește prin încărcarea hărții pe care vrei să o cureți (dintr-un fișier .txt).
+![Main Menu](./Resources/preview.png)
 
-Ghidează robotul: Robotul nostru e super harnic, dar are o mică problemă: merge doar în linie dreaptă!. Va trebui să plasezi „deflectoare” pe traseu și să le rotești (Sus, Jos, Stânga, Dreapta) pentru a-i schimba traiectoria și a-l duce exact unde trebuie.
+---
 
-## 🏆 Reguli de aur
-Ai adunat absolut fiecare bucată de deșeu de pe hartă? Felicitări, ai curățat zona cu succes și ai trecut nivelul!
+# 🎮 How to play?
+* **Start the adventure:** Everything begins by loading the map you want to clean (from a .txt file).
+* **Guide the robot:** Our robot is super hardworking, but it has a small problem: it only moves in a straight line! You will need to place "deflectors" on the path and rotate them (Up, Down, Left, Right) to change its trajectory and lead it exactly where it needs to go.
 
-Atenție la meduze! Traseul trebuie calculat cu mare grijă. Dacă robotul tău se ciocnește accidental de o meduză, misiunea eșuează. Protejarea ecosistemului are mereu prioritate!
+## 🏆 Golden Rules
+* **How to win:** Have you collected absolutely every piece of waste on the map? Congratulations, you have successfully cleaned the area and passed the level!
+* **Watch out for jellyfish!** The path must be calculated with great care. If your robot accidentally collides with a jellyfish, the mission fails. Protecting the ecosystem is always a priority!
 
 ---
 
 ## 🛠️ Build
 
-Deoarece jocul este construit folosind **Windows Forms**, ai nevoie de un mediu de dezvoltare compatibil cu ecosistemul .NET pe Windows.
+Since the game is built using **Windows Forms**, you need a development environment compatible with the .NET ecosystem on Windows.
 
-### Cerințe:
-* Sistem de operare: **Windows**
-* [Visual Studio](https://visualstudio.microsoft.com/) (recomandat 2019, 2022) cu workload-ul `.NET desktop development` instalat.
+### Requirements:
+* Operating System: **Windows**
+* [Visual Studio](https://visualstudio.microsoft.com/) (2019, 2022 recommended) with the `.NET desktop development` workload installed.
